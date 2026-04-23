@@ -1,0 +1,20 @@
+{
+  "name": "magika-api",
+  "version": "1.0.0",
+  "description": "REST API web service for Google Magika file type detection",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["magika", "file-type", "detection", "api"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0",
+    "magika": "^0.3.0",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0"
+  }
+}
